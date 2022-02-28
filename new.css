@@ -1,0 +1,41 @@
+h1{
+    background-color: aqua;
+}
+table,
+td {
+    border:1px solid aqua;
+    color: black;
+}
+
+th {
+    color: black;
+    background-color: aqua;
+}
+.list li {
+    list-style-type: circle;
+    font-weight: bolder;
+}
+
+.list li ul li {
+    list-style-type: square;
+}
+.Dog{
+    width: 200px;
+}
+form.login {
+    display: table;
+}
+
+div.login {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+    font-weight: bold;
+}
